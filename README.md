@@ -20,7 +20,7 @@ A web framework app that serves static sites (HTML/CSS/Js).
 1. Node.js
 
 ## Installation
-- 1 - Clone this repo:
+- 1 - First clone this repo:
 
 ```
 git clone
@@ -28,19 +28,19 @@ git clone
 
 - 2 - Put all your Static Website files (HTML/CSS/JS into the  "/public" Folder
 
-* 3 - Run this command:
+* 3 - Then run:
 
 ```
 npm install
 ```
 
-- 4 Run this command:
+- 4 - And do:
 
 ```
 npm start
 ```
 
-- 4 Point your browser to:
+- 5 - Navigate to:
 
 ```
 http://localhost:3300
@@ -50,6 +50,7 @@ The app should be at http://localhost:3300.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License
+<!-- Distributed under the MIT License --> 
+Distributed under the GPL-3.0 license
 
 
