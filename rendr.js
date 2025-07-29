@@ -13,13 +13,20 @@ app.use(
 
 app.use(bodyParser.json());
 
-//app.use(express.static(path.resolve(__dirname, "public")));
-app.use(express.static('public',{index:false, extensions:['json']}));
+// Remove Url extension 
+//ex: from https://example.com/index.html
+//to https://example.com/
+
+//json api - uncomment to use for json api serving 
+/*app.use(express.static('public',{index:false, extensions:['json']}));*/
+
+//html page
+app.use(express.static('public',{index:false, extensions:['html']}));
 
 app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "public", "/"));
 });
 
 var server = app.listen(port, function() {
-  console.log("The server is running on http://localhost:" + port);
+  console.log("Rendrly Express is running on http://localhost:" + port);
 });

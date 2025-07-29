@@ -1,14 +1,14 @@
 {
-  "name": "sentry-nodes-stake",
-  "version": "1.0.0",
+  "name": "rendrly-express",
+  "version": "1.1.0",
   "description": "A Simple NodeJs and ExpressJS Static Pages Web Server",
   "scripts": {
-    "start": "node index.js"
+    "start": "node rendr.js"
   },
   "author": "muroko",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2"
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
   }
 }
